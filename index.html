@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
@@ -7,7 +7,7 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,700&display=swap');
     </style>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="/css/style.css">
     <title>Gandalf</title>
 </head>
@@ -162,9 +162,9 @@
         <section class="infrastructure">
             <div class="container">
                 <div class="infrastructure__inner">
-                    <div class="infrastructure__title">
+                    <h2 class="infrastructure__title">
                         Инфраструктура для твоего развития и роста
-                    </div>
+                    </h2>
                     <div class="infrastructure__content">
                         <p class="infrastructure__content-desc">Мы создаем платформу для профессионального развития
                             каждого сотрудника. Главная цель – дать возможность учиться, работать и получать
@@ -173,11 +173,12 @@
                             О возможностях личностного роста в ГЭНДАЛЬФ расскажет руководитель Департамента персонала и
                             карьеры Татьяна Арсенович.
                         </p>
-                        <iframe class="infrastructure__content-video" width="538" height="297"
+                        <iframe class="infrastructure__content-video" width="538" height="297" 
                             src="https://www.youtube.com/embed/4Adku7380Zo?si=VhEXGqMdRJYrtpAH"
-                            title="YouTube video player" frameborder="0" disablekb="1"
+                            title="YouTube video player" frameborder="0" 
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            allowfullscreen></iframe>
+                            allowfullscreen>
+                        </iframe>
                     </div>
                 </div>
             </div>
@@ -227,7 +228,7 @@
     <footer class="footer">
         <div class="container">
             <div class="footer__inner">
-                <form action="" class="footer__form">
+                <form action="#" class="footer__form">
                     <h2 class="footer__title">Записаться на собеседование</h2>
 
                     <input class="footer__form-input" type="text" name="name" id="name"
@@ -235,20 +236,20 @@
                     <input class="footer__form-input" type="tel" name="tel" id="tel" placeholder="Телефон"
                         pattern="\+\d{3}-\d{10}" required>
                     <input class="footer__form-input" type="email" name="email" id="email" placeholder="Email" required
-                        type email>
+                        email>
                     <input class="footer__form-input" type="text" name="post" id="post" placeholder="Желаемая должность"
                         required>
                     <fieldset class="footer__form-radio">
                         <legend>Выберите категорию занятости</legend>
-                        <label>
+                        <label name="#" id="1">
                             <input type="radio" name="category">
                             Работа в офисе
                         </label>
-                        <label>
+                        <label name="#"  id="2">
                             <input type="radio" name="category">
                             Стажировка
                         </label>
-                        <label>
+                        <label name="#"  id="3" >
                             <input type="radio" name="category">
                             Удаленная работа
                         </label>

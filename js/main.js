@@ -19,6 +19,7 @@ headerButton.addEventListener('click', () => {
   console.log('click')
   headerButton.classList.toggle('header__button--active')
   headerNavigation.classList.toggle('header__navigation--active')
+  document.querySelector('body').classList.toggle('--active');
 })
 
 
@@ -44,10 +45,7 @@ inputs.forEach(input => {
 
 function initSwiper() {
   let screenWidth = window.innerWidth;
-  console.log(screenWidth)
   if (screenWidth <= 400) {
-    console.log(0)
-
     if (swiper) {
       swiper.destroy();
     }
@@ -62,7 +60,6 @@ function initSwiper() {
 
 
   } else if (screenWidth <= 700) {
-    console.log(1)
 
     if (swiper) {
       swiper.destroy();
@@ -76,7 +73,6 @@ function initSwiper() {
       },
     });
   } else if (screenWidth <= 800) {
-    console.log(2)
 
 
     if (swiper) {
@@ -91,7 +87,6 @@ function initSwiper() {
       },
     });
   } else if (screenWidth <= 900) {
-    console.log(3)
 
     if (swiper) {
       swiper.destroy();
@@ -105,7 +100,6 @@ function initSwiper() {
       },
     });
   } else {
-    console.log(4)
     if (swiper) {
       swiper.destroy();
     }
