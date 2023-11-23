@@ -1080,6 +1080,8 @@ details[open] .question__text::before {
     }
 
     .header__navigation--active {
+        webkit-transition-delay: 0.1s;
+        transition-delay: 0.1s;
         -webkit-transform: translateY(0);
         -ms-transform: translateY(0);
         transform: translateY(0);
@@ -1128,7 +1130,7 @@ details[open] .question__text::before {
         -webkit-box-pack: justify;
         -ms-flex-pack: justify;
         justify-content: space-between;
-        z-index: 11;
+        z-index: 1;
 
     }
 
@@ -1145,6 +1147,7 @@ details[open] .question__text::before {
         -webkit-box-ordinal-group: 0;
         -ms-flex-order: -1;
         order: -1;
+        z-index: 12 !important;
 
     }
 }
@@ -1324,7 +1327,7 @@ details[open] .question__text::before {
 }
 
 @media(max-width:400px) {
-   .about__content-desc {
+    .about__content-desc {
         font-size: 16px;
         line-height: 21.79px;
     }
