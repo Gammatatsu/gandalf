@@ -93,9 +93,10 @@ button {
     -o-transition: all 500ms;
     transition: all 500ms;
 }
+
 details summary::-webkit-details-marker {
-    display:none;
-  }
+    display: none;
+}
 
 button,
 input[type="submit"] {
@@ -1052,7 +1053,7 @@ details[open] .question__text::before {
 
 @media (max-width:870px) {
     .header__navigation {
-        padding-top: 100px ;
+        padding-top: 100px !important;
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -1068,18 +1069,14 @@ details[open] .question__text::before {
         left: 0;
         right: 0;
         bottom: 0;
-        -webkit-transition: -webkit-transform 0.6s ease-out;
-        transition: -webkit-transform 0.6s ease-out;
-        -o-transition: transform 0.6s ease-out;
-        transition: transform 0.6s ease-out;
-        transition: transform 0.6s ease-out, -webkit-transform 0.6s ease-out;
+        transition: transform 0.6s ease-out, -webkit-transform 0.6s ease-out, -o-transform 0.6s ease-out;
         background: rgba(0, 0, 0, .99);
         opacity: .95;
         -webkit-transform: translateY(-100%);
         -ms-transform: translateY(-100%);
         transform: translateY(-100%);
         overflow-x: hidden;
-        height: 100vh;
+        height: 100%;
     }
 
     .header__navigation--active {
@@ -1327,8 +1324,7 @@ details[open] .question__text::before {
 }
 
 @media(max-width:400px) {
-   
-    .about__content-desc {
+   .about__content-desc {
         font-size: 16px;
         line-height: 21.79px;
     }
