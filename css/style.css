@@ -1327,10 +1327,7 @@ details[open] .question__text::before {
 }
 
 @media(max-width:400px) {
-    .header__navigation{
-        padding-top: 180px !important;
-
-    }
+   
     .about__content-desc {
         font-size: 16px;
         line-height: 21.79px;
