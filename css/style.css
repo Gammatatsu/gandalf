@@ -1268,6 +1268,12 @@ details[open] .question__text::before {
         font-size: 28px;
         text-align: center;
     }
+    .hero__record-button{
+        line-height: 18px;
+    }
+    .about__record-button{
+        line-height: 18px;
+    }
 
     .infrastructure__content-desc {
         font-size: 16px;
@@ -1327,9 +1333,7 @@ details[open] .question__text::before {
 }
 
 @media(max-width:400px) {
-    .hero__record-button{
-        line-height: 18px;
-    }
+    
     .about__content-desc {
         font-size: 16px;
         line-height: 21.79px;
@@ -1344,11 +1348,7 @@ details[open] .question__text::before {
         -ms-flex-align: center;
         align-items: center;
     }
-    .about__record-button{
-        line-height: 18px;
-    }
-
-
+   
     .about__more-button,
     .about__record-button {
         width: 295px;
