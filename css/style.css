@@ -1270,11 +1270,9 @@ details[open] .question__text::before {
     }
     .hero__record-button{
         line-height: 16px;
-        white-space: nowrap;
     }
     .about__record-button{
         line-height: 16px;
-        white-space: nowrap;
 
     }
 
