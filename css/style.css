@@ -1269,10 +1269,10 @@ details[open] .question__text::before {
         text-align: center;
     }
     .hero__record-button{
-        line-height: 18px;
+        line-height: 16px;
     }
     .about__record-button{
-        line-height: 18px;
+        line-height: 16px;
     }
 
     .infrastructure__content-desc {
