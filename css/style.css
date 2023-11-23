@@ -93,6 +93,9 @@ button {
     -o-transition: all 500ms;
     transition: all 500ms;
 }
+details summary::-webkit-details-marker {
+    display:none;
+  }
 
 button,
 input[type="submit"] {
