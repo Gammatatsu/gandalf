@@ -1052,7 +1052,7 @@ details[open] .question__text::before {
 
 @media (max-width:870px) {
     .header__navigation {
-        padding-top: 100px;
+        padding-top: 100px !important;
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
