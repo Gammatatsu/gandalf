@@ -1270,9 +1270,12 @@ details[open] .question__text::before {
     }
     .hero__record-button{
         line-height: 16px;
+        text-wrap: nowrap;
     }
     .about__record-button{
         line-height: 16px;
+        text-wrap: nowrap;
+
     }
 
     .infrastructure__content-desc {
